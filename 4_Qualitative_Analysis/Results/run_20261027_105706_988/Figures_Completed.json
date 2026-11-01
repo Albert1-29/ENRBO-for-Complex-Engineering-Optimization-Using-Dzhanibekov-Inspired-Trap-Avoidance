@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "functionCount": 23,
+  "figureSets": 69,
+  "formats": [
+    "fig",
+    "pdf",
+    "png"
+  ],
+  "pngResolution": 600
+}
