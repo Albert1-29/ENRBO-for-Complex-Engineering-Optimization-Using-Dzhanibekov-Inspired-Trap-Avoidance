@@ -1,0 +1,5 @@
+New-layout and new-run-seed validation conditional on development-selected synthetic generators. No evidence for unrestricted real-world map superiority. All earlier results must remain available.
+Success is raw-path feasibility. Raw ranks are independently recomputed from full precision. Post2 ranks are separate descriptive ranks after common smoothing; neither is a Friedman p-value.
+Feasibility and raw preference tests have separately identified Holm families of 500 tests each. Nonsignificance is not equivalence.
+Bootstrap resamples maps within families. Percentile intervals, including the Bonferroni sensitivity tails, are approximate and conditional on these generators, not universal guarantees.
+Mean timings are from concurrent workers and are not serial runtime benchmarks. A* is a separate deterministic reference, outside the eleven metaheuristic ranks. Conditional feasible length comparisons must be interpreted with success rates.

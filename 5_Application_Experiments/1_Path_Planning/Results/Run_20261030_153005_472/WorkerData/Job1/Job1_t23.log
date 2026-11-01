@@ -1,0 +1,12 @@
+
+	Student License -- for use by students to meet course requirements
+	and perform academic research at degree granting institutions only.
+
+[警告: 'onCleanup' 类的对象已存在。无法清除此类或其任何超类。] 
+[> 位置：distcomp.clearFunction (第 27 行)] 
+[警告: 'datetime' 类的对象已存在。无法清除此类或其任何超类。] 
+[> 位置：distcomp.clearFunction (第 27 行)] 
+[警告: 'distcomp.runprop' 类的对象已存在。无法清除此类或其任何超类。] 
+[> 位置：distcomp.clearFunction (第 27 行)] 
+[警告: 'distcomp.objectroot' 类的对象已存在。无法清除此类或其任何超类。] 
+[> 位置：distcomp.clearFunction (第 27 行)] 

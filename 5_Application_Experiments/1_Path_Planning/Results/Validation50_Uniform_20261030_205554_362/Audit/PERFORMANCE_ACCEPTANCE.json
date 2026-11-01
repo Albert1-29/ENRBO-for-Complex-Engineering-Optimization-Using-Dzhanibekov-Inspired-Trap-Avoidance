@@ -1,0 +1,31 @@
+{
+  "checks": {
+    "all_16500_complete": true,
+    "same_budget": true,
+    "paired_seeds": true,
+    "success_unique_first": true,
+    "raw_rank_unique_first": true,
+    "post_rank_unique_first": true,
+    "all_five_family_success_first": true,
+    "all_four_size_success_first": true,
+    "conditional_bootstrap_gap_positive": true,
+    "technical_checks_completed": true,
+    "installed_files_verified": true,
+    "installed_runtime_preflight": true
+  },
+  "successes": 1360,
+  "runs": 1500,
+  "success_percent": 90.66666666666666,
+  "second_success_algorithm": "PSA",
+  "second_success_percent": 68.86666666666666,
+  "gap_percentage_points": 21.799999999999997,
+  "raw_mean_rank": 2.044333333333333,
+  "post2_mean_rank": 2.141333333333333,
+  "map_success_leader_including_ties": 48,
+  "map_raw_quality_leader_including_ties": 49,
+  "minimum_map_successes": 14,
+  "total_maps": 50,
+  "installation_complete": true,
+  "installed_project": "D:\\xiugai\\5_Application_Experiments\\1_Path_Planning",
+  "installed_results": "D:\\xiugai\\5_Application_Experiments\\1_Path_Planning\\Results\\Validation50_Uniform_20261030_205554_362"
+}
