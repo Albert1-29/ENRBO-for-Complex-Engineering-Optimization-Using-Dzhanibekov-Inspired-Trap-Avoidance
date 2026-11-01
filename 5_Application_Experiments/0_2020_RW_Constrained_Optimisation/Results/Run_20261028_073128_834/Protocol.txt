@@ -1,0 +1,10 @@
+Official CEC2020-RW code, all 57 problems. Trials=25, N=40.
+Dimensional FE caps: 100000/200000/400000/800000/1000000.
+No fixed iteration cap; initialization/repeated evaluations counted.
+Official g/h and violation: g>0; abs(h)>1e-4; CV=mean(active violations).
+Search wrapper f+100000*sum(v.^2). This coefficient and N are study choices.
+Time-based root seed=841528119; full paired seed matrix saved in Protocol.mat.
+Reporting retains the best evaluated feasible point, or least-CV point.
+Original evaluator is unchanged, including published code/report discrepancies.
+Some native iteration schedules can stop mid-generation at the common FE cap.
+Parallel wall times are descriptive; official T1/T2 complexity is not estimated from them.
