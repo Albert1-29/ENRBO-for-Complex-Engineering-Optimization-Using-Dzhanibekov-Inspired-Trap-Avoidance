@@ -1,0 +1,12 @@
+F14: Foxholes; dimension 2; 30 agents, 750 iterations.
+One fixed-seed run per algorithm; search histories contain generation-end populations and exclude the initial population.
+Five panels: objective surface, ENRBO search history, population mean fitness, agent 1 coordinate 1, and ENRBO best-so-far fitness.
+Background uses original func_plot and func_plot_2 domains and evaluation convention. Search dots are population positions in the first two coordinates; the red point is the final best found.
+For dimension >2 the old helper evaluates a two-coordinate or zero-padded slice, while the history is a high-dimensional projection; the two are not the same optimization surface.
+Original helper arrays index function values as (x,y) but MATLAB contour treats rows as y; for asymmetric functions this can transpose the depicted background.
+The diversity plot is sqrt(sum_i sum_j (x_ij - mean_i(x_ij))^2). The center divides by the population size.
+Exploration and exploitation are retrospective median-diversity proxies, not actual operator-use rates. If maximal diversity is zero, both are undefined.
+Negative fitness uses a linear scale; nonnegative values use a logarithmic scale. Exact zeros are displaced for display only; the recorded values remain unchanged.
+The six-output algorithm interface does not contain TAO attempt, acceptance or flip-coefficient records; these are not reconstructed or asserted.
+F7 is noisy during optimization; old-style surface and contour each sample noise. Plotting uses an independent fixed seed and restores the caller RNG.
+F6 is the classical Step function; the coarse full-domain landscape grid cannot display every step.
