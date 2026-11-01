@@ -1,0 +1,95 @@
+{
+  "settings": {
+    "population": 30,
+    "iterations": 750,
+    "functionIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "baseSeed": 2.0261026E+7,
+    "renderFigures": true,
+    "pngResolution": 600,
+    "outputRoot": "D:\\xiugai\\4_Qualitative_Analysis\\Results"
+  },
+  "methods": [
+    "NRBO",
+    "ENRBO"
+  ],
+  "matlab": "26.1.0.3346908 (R2026a) Update 5",
+  "startedAt": "2026-10-27 10:57:06",
+  "runsPerMethodAndFunction": 1,
+  "outputs": [
+    "Best_Score",
+    "Best_Pos",
+    "CG_curve",
+    "search_history",
+    "ave_fit",
+    "x_1st"
+  ],
+  "recordedStates": "End-of-generation resident populations; no initial state",
+  "randomization": "Same predefined seed per function; identical random initial population, then solver random streams may diverge",
+  "DF": [
+    0.6,
+    0.9
+  ],
+  "enrboInitialization": "Uniform random initialization",
+  "sources": [
+    {
+      "file": "ENRBO.m",
+      "sha256": "3e3da84823688452823d01f3a7f66745a5d1600ce4d478234687a2fd03d96e9e"
+    },
+    {
+      "file": "Get_Functions_details.m",
+      "sha256": "e19027119bb5e7420c7b59da39f7650601a493a8eb330236077445e74cecdac2"
+    },
+    {
+      "file": "NRBO.m",
+      "sha256": "0de377246930b7755eaef7762f2d4182d841cf5949ce684bbbdb4b9adeeb06f2"
+    },
+    {
+      "file": "func_plot.m",
+      "sha256": "8bca39308a1b4913fe0d7d220914c4a62ec0bfa3f7ebb1db6cf5419501a780a3"
+    },
+    {
+      "file": "func_plot_2.m",
+      "sha256": "7848ea344d312edb0af9503019023c25a9a6d7aaff652184ffd4d454a63784d1"
+    },
+    {
+      "file": "main.m",
+      "sha256": "e1d3794df793f77b4a3025c2557687aa3dd6b8a5efa83f7c701c13a2e24a50fa"
+    },
+    {
+      "file": "qualitative_benchmark.m",
+      "sha256": "2001834853cacb8d6e264d71023f902f7088a53ff5b3a0203c2ebec3636090fd"
+    },
+    {
+      "file": "render_legacy_six.m",
+      "sha256": "c51010a6b2d089ef66a235f31aaad9978cef6829f1754637ab6239566f000fb3"
+    },
+    {
+      "file": "run_qualitative.m",
+      "sha256": "5b750fe4b659805d186c6d152e5f0ee4e90c4ceaa1bbccffa5b77f370cc66c18"
+    }
+  ]
+}
