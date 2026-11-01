@@ -1,0 +1,63 @@
+PRELIMINARY COMPARISON: the shared second input is 750; objective-evaluation budgets differ.
+NDO treats 750 as iterations and evaluates the objective three times per individual per iteration. This study is not an equal-FE comparison.
+N=30: ENRBO/NRBO/IVYA 22530 FE; NDO 67530 FE; BKA/CFO 45030 FE; WaOA 67530 FE; PSA/WO 22500 FE; TOC 21780 FE; DOA varies by random branches.
+IVYA uses equivalent scalar bounds [-100,100] to preserve its original division semantics; algorithm source files are unchanged.
+CEC2017: F1-F30 except F2; dimensions 10/30/50/100; bounds [-100,100].
+Raw objectives drive optimization. Statistics use f(x)-f*. Errors below 1e-8 are recorded as zero.
+Convergence: across-run arithmetic mean error on a logarithmic axis; zero is displayed at the labeled floor.
+Left surface: raw objective slice with all coordinates after x2 fixed to zero. Box plots: final-run errors.
+Sheet1: basic error statistics. Sheet2: original per-function Friedman mean ranks across run rows, Average and Rank.
+Sheet3: original unadjusted two-sided rank-sum p-values and signs using mean-error direction.
+Sheet4: two-sided rank-sum p-values corrected by Holm over all functions/opponents WITHIN EACH dimension.
+Sheet5: rank effects P(target<opponent)-P(target>opponent).
+Sheet6: across-run mean-error ranks and overall Friedman test with functions as blocks. Radar uses these same ranks.
+Sheet2 retains the original descriptive run-row ranks; use the function-block test in Sheet6 for overall inference.
+Win/loss require adjusted p<0.05 and a positive/negative rank effect. Tie means no detected significant difference, not equivalence.
+Overall win/tie/loss counts describe the sum across dimensions; they are not an additional global significance test.
+The horizontal radar panels follow the dimension order in the experiment manifest.
+Algorithms: ENRBO, NRBO, NDO, BKA, CFO, DOA, IVYA, PSA, TOC, WaOA, WO
+Target: ENRBO; remaining entries are opponents. All selected names come from algoNames.
+
+ENRBO | function: ENRBO | source: ENRBO.m
+ | DOI:  | Year: not specified
+Selected source file: ENRBO.m
+
+NRBO | function: NRBO | source: NRBO.m
+ | DOI:  | Year: not specified
+Selected source file: NRBO.m
+
+NDO | function: NDO | source: NDO.m
+ | DOI:  | Year: not specified
+Selected source file: NDO.m
+
+BKA | function: BKA | source: BKA.m
+ | DOI: % | Year: not specified
+Selected source file: BKA.m
+
+CFO | function: CFO | source: CFO.m
+ | DOI:  | Year: not specified
+Selected source file: CFO.m
+
+DOA | function: DOA | source: DOA.m
+ | DOI:  | Year: not specified
+Selected source file: DOA.m
+
+IVYA | function: IVYA | source: IVYA.m
+ | DOI:  | Year: not specified
+Selected source file: IVYA.m
+
+PSA | function: PSA | source: PSA.m
+ | DOI:  | Year: not specified
+Selected source file: PSA.m
+
+TOC | function: TOC | source: TOC.m
+ | DOI:  | Year: not specified
+Selected source file: TOC.m
+
+WaOA | function: WaOA | source: WaOA.m
+ | DOI:  | Year: not specified
+Selected source file: WaOA.m
+
+WO | function: WO | source: WO.m
+ | DOI:  | Year: not specified
+Selected source file: WO.m
