@@ -1,0 +1,67 @@
+{
+  "repository": "https://github.com/P-N-Suganthan/2020-RW-Constrained-Optimisation",
+  "commit": "a148874a233f9fb8fa82fdae3b5739d1bba7020d",
+  "files": [
+    {
+      "name": "CEC E-24363 codes and results.zip",
+      "gitBlob": "9c8f9a6f2b289ad73ba6e8e687236fe67a46c2c1",
+      "size": 483683
+    },
+    {
+      "name": "CEC E-24443 codes and results.zip",
+      "gitBlob": "47ff7019e3012daf17f2d53c3bf2afaa597cd706",
+      "size": 402183
+    },
+    {
+      "name": "CEC E-24586 codes and results.zip",
+      "gitBlob": "b1f90349a315ec8e6015798c5f8bc4cdb941c5f4",
+      "size": 507150
+    },
+    {
+      "name": "CEC2020 Real-World Constrained Optimization Results Analysis.pdf",
+      "gitBlob": "8c09f70d2dfad5de2946ba95b22b324efa49691a",
+      "size": 290205
+    },
+    {
+      "name": "Code used For Ranking.zip",
+      "gitBlob": "0149f0a38fd07e538ead38bfeb9889279cf5a481",
+      "size": 210894
+    },
+    {
+      "name": "GECCO COM108 codes and results.zip",
+      "gitBlob": "9bac7044a0857da2b3833e11aa86b0231cb09834",
+      "size": 651959
+    },
+    {
+      "name": "GECCO COM109 codes and results.zip",
+      "gitBlob": "930fe91a21bd127b1eacd626a379fe6c3fdfc25a",
+      "size": 543273
+    },
+    {
+      "name": "Guidelines_Real_World_Constrained.pdf",
+      "gitBlob": "dbad827681977d18eee57fd5bbc5c6aef393c97c",
+      "size": 86477
+    },
+    {
+      "name": "Problem-Definitions.pdf",
+      "gitBlob": "21fdcf2e193d12fb5288f8a5248b5d77336f8bec",
+      "size": 265813
+    },
+    {
+      "name": "Pyhton-C++.docx",
+      "gitBlob": "e09dc506d2f40319c1eddcb69372649239c5e9ae",
+      "size": 12111
+    },
+    {
+      "name": "Revision.docx",
+      "gitBlob": "91ee88d7f4f564706aaf233804cad447b6aac4d0",
+      "size": 14999
+    },
+    {
+      "name": "SOFTWARE.zip",
+      "gitBlob": "405aa1476ff0a0014a114c6ea0e0316d09b6edf3",
+      "size": 42941
+    }
+  ],
+  "scope": "Official benchmark evaluation sources preserved without mathematical modifications."
+}
