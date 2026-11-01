@@ -1,0 +1,33 @@
+ENRBO DF SENSITIVITY: predefined grid, no preset winner.
+CEC2017: F1-F30 except F2; D=10/30/50/100; N=30; T=750; 30 matched runs.
+DF=0.1:0.1:0.9. DF=0.6 is the legacy reference. Endpoints 0/1 are excluded from this interior sensitivity study to retain both update paths.
+Xiao et al. (2025), Artificial Intelligence Review, DOI: 10.1007/s10462-024-11023-7, section 3.2.1: Prob. 0.1:0.1:0.9. The interior probability grid follows that experimental precedent; it is not a universal optimum guarantee.
+Raw f(x) drives optimization. Reported error=f(x)-f*, f*=100*function ID; errors <1e-8 become zero.
+Seed task: ENRBO-DF-sensitivity|CEC2017|N30|T750|R30|D10,30,50,100|F1:30except2|grid0.1:0.1:0.9|control0.6|interiorRevision20261026
+Seed SHA-256: d8c7c25be088df1af1bb3d8790be8e6aa06d9371dbe6bf2abfcb36193564dfc8
+Fresh base seed: 1489486430
+All nine DF configurations use the same seed for each dimension/function/run. All sources are snapshotted.
+Paired two-sided MATLAB signrank(...,method=approximate); native epsdiff zero/tie handling.
+Effect: paired signed-rank biserial; positive favors DF=0.6. All-zero pairs: p=1, effect=0.
+One global Holm family: 928 tests across every dimension/function/alternative. Sheet4 stays PENDING until all dimensions finish.
+Overall Friedman: functions are blocks, across-run mean error is ranked within each function; Holm across four dimension tests.
+The 30 seed runs are not treated as 30 independent benchmark functions.
+Sheet1 retains raw error magnitude statistics (including mean and SD). Sheet2 holds descriptive matched-seed mean ranks.
+Sheet3 raw paired p; Sheet4 global Holm p; Sheet5 paired effects; Sheet6 function ranks and Friedman.
+Win/tie/loss signs use global adjusted p<0.05 and effect direction. A tie is not evidence of equivalence.
+Summary.xlsx: mean function ranks by dimension and equal-dimension overall; best OBSERVED tested-grid DF, not a continuous optimum or independently validated winner.
+Rank curve CI: 2000 hierarchical bootstrap replicates; sample functions, then paired seed rows common to all DF within each sampled function; recompute mean errors and ranks.
+CI: pointwise 2.5/97.5 percentile, NOT simultaneous bands and NOT inference for the post-selected best DF. Bootstrap seed 1736300009 uses a separate local stream.
+Patterson, Neumann, White and White (2024), Empirical Design in Reinforcement Learning, JMLR 25(318):1-63, sections 2 and 3.1: confidence intervals and grid-range/refinement are distinct from independent validation; https://jmlr.org/papers/v25/23-0183.html. This is methodological guidance, not ENRBO evidence.
+Radar plots are disabled. DF sensitivity uses four aligned panels, pointwise 95% bootstrap intervals and no smoothing. All figures are saved as FIG/PDF/PNG. Convergence mean error uses a display-only logarithmic floor at 1e-8.
+Objective surface fixes coordinates x3 onward to zero; it is an illustrative slice, not the optimum landscape.
+Sources: one ENRBO.m for all variants; only its DF input differs.
+DF=0.6 | ENRBO.m | DF=0.6
+DF=0.1 | ENRBO.m | DF=0.1
+DF=0.2 | ENRBO.m | DF=0.2
+DF=0.3 | ENRBO.m | DF=0.3
+DF=0.4 | ENRBO.m | DF=0.4
+DF=0.5 | ENRBO.m | DF=0.5
+DF=0.7 | ENRBO.m | DF=0.7
+DF=0.8 | ENRBO.m | DF=0.8
+DF=0.9 | ENRBO.m | DF=0.9
